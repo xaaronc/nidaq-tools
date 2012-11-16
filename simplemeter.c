@@ -15,9 +15,6 @@
 #include "NIDAQmxBase.h"
 #include "devices.h"
 
-static float64 timeout = 10.0;
-static unsigned dev_id = 1;
-
 /* Set sample dynamic range.  Smaller usually yields better resolution. */
 static float64 vd_min = -50e-3;
 static float64 vd_max = 50e-3;
@@ -44,6 +41,8 @@ static double rsense = 0.0;
 static double voltage = 0.0;
 
 static int32 terminal_cfg = DAQmx_Val_Cfg_Default;
+static float64 timeout = 10.0;
+static unsigned dev_id = 1;
 
 static unsigned verbose;
 static unsigned use_timestamp;
