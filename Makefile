@@ -7,5 +7,5 @@ VER = $(shell git rev-parse HEAD)$(shell [[ -z $$(git diff-index --name-only HEA
 all: simplemeter
 
 clean:
-	rm simplemeter
+	rm -f simplemeter
 

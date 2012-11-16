@@ -218,9 +218,9 @@ main(int argc, char *argv[])
 		} else if (!strcmp("--rate", argv[i])) {
 			sample_rate = strtod(argv[++i], NULL);
 		} else if (!strcmp("--mult", argv[i])) {
-			mult = strtod(argv[++i], NULL, 0);
+			mult = strtod(argv[++i], NULL);
 		} else if (!strcmp("--offset", argv[i])) {
-			offset = strtod(argv[++i], NULL, 0);
+			offset = strtod(argv[++i], NULL);
 		} else if (!strcmp("--chan", argv[i])) {
 			ai_chan = strtoul(argv[++i], NULL, 0);
 		} else if (!strcmp("--rsense", argv[i])) {
