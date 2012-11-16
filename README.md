@@ -19,7 +19,7 @@ Build
 Example
 -------
 
-  ./simplemeter --chan 4 --mode diff --rate 1000 --avg 500 --rsense 10 --ts
+    ./simplemeter --chan 4 --mode diff --rate 1000 --avg 500 --rsense 10 --ts
 
 Reads differential samples from channel 4 at 1 kHz, prints averages of 500
 points along with the correponding timestamp.  The --rsense option specifies
