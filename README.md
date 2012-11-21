@@ -22,10 +22,10 @@ Example
     ./simplemeter --chan 4 --mode diff --rate 1000 --avg 500 --rsense 10 --ts
 
 Reads differential samples from channel 4 at 1 kHz, prints averages of 500
-points along with the correponding timestamp.  The --rsense option specifies
+points along with the correponding timestamp.  The `--rsense` option specifies
 that we are sampling the voltage across a current sense resistors of 10
 mohms, and outputs data in mA. 
 
-Voltage, time, current and resistance are always input and output in milli-
-{volts, amps, watts, seconds}.
+Voltage, time, current and resistance are always input and output in
+milli-{volts, amps, watts, seconds}.
 
